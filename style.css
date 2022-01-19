@@ -1,0 +1,152 @@
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+#header {
+    margin-top: -10px;
+    position: fixed;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  }
+
+#header-img{
+    font-size: 10px;
+      width: 500px;
+     
+}
+#nav-bar{
+    text-decoration: none;
+}
+ul{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}   
+.container{
+ text-align: center;
+
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   padding: 150px;
+}
+#email{
+width: 300px;
+height: 30px;
+}
+.btn{
+    background-color: rgb(219, 219, 33);
+    border: chartreuse;
+    color: black;
+    font-size: 30px;
+  }
+  #features{
+      font-size: 18px;
+padding: 40px;
+
+  }
+  .icon {
+    display: flex;
+   font-size: 50px;
+    justify-content: center;
+    height: 50px;
+    width: 20vw;
+    margin-left: 100px;
+  
+    color: darkorange;
+  }
+  
+  .desc {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    height: 10px;
+    margin-right: 50px;
+
+  }
+  li {
+    list-style: none;
+   display: inline;
+   margin: 30px;
+    margin-left: 200px;
+     }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  .grid {
+    display: flex;
+  }
+  
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.vedio {
+  max-width: 560px;
+  width: 100%;
+}
+#pricing {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+  /* width: calc(100% / 3); */
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  text-align: center;
+
+}
+.level {
+  background-color: #ddd;
+  color: black;
+   padding: 15px;
+  /* width: 100%;  */
+  text-transform: uppercase;
+  font-weight: 700;
+}
+ ol {
+  margin: 15px 0;
+  padding: 0px 100px 0px 100px;
+}
+
+ ol li {
+ 
+  margin: 10px;
+  text-align: center;
+}
+ button {
+  margin: 15px ;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+footer{
+ background: silver;
+ height: 100px;
+}
+#ft{
+ float: right;
+ margin-left: 700px;
+}
+@media (max-width:268px){
+  footer{
+ background: silver;
+ height: 90px;
+}
+}
